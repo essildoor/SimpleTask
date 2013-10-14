@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="outputFolderPath">D:\!_java_idea_projects\SimpleTask\!_work_dir\output\</entry>
+<entry key="inputFolderPath">D:\!_java_idea_projects\SimpleTask\!_work_dir\input\</entry>
+<entry key="processedFolderPath">D:\!_java_idea_projects\SimpleTask\!_work_dir\processed\</entry>
+<entry key="processingType">byLine</entry>
+<entry key="poolSize">10</entry>
+</properties>
