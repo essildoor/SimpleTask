@@ -1,9 +1,10 @@
 package com.returnonintelligence.util;
 
 import com.returnonintelligence.datatypes.*;
-import com.returnonintelligence.fileio.CSVTradeFileReader;
-import com.returnonintelligence.fileio.GeneralWriter;
-import com.returnonintelligence.fileio.XMLTradeFileReader;
+import com.returnonintelligence.io.CSVTradeFileReader;
+import com.returnonintelligence.io.DBTradeDataWriter;
+import com.returnonintelligence.io.GeneralWriter;
+import com.returnonintelligence.io.XMLTradeFileReader;
 
 import java.io.*;
 import java.text.ParseException;
@@ -60,32 +61,32 @@ public class PackageProcessor implements Runnable {
      * 3) writes new and input data to specified folders
      */
     private void processByFile() {
-
+        TradePackage tradePackage;
+        DividendRecord dividendRecord;
+        ClaimRecord claimRecord;
         List<DividendRecord> dividendRecordList = new ArrayList<DividendRecord>();
         List<ClaimRecord> claimRecordList = new ArrayList<ClaimRecord>();
         GeneralWriter writer;
-
         StringTokenizer st = new StringTokenizer(shortTradeFileName, ".");
         st.nextToken();
         String tradeFileType = st.nextToken();
-
-        TradePackage tradePackage;
         if (tradeFileType.equals("csv")) {
             CSVTradeFileReader reader = new CSVTradeFileReader(tradeFileName);
             tradePackage = reader.read();
+            DBTradeDataWriter dbWriter = new DBTradeDataWriter(tradePackage);
+            dbWriter.write();
         } else if (tradeFileType.equals("xml")) {
             XMLTradeFileReader reader = new XMLTradeFileReader(tradeFileName);
             tradePackage = reader.read();
+            //write trade data to MySQL DB
+            DBTradeDataWriter dbWriter = new DBTradeDataWriter(tradePackage);
+            dbWriter.write();
         } else {
             System.out.println(shortTradeFileName + " has an unknown extension!");
             return;
         }
-
         //Reads data from trade file
         parseTradeDataFileName();
-        DividendRecord dividendRecord;
-        ClaimRecord claimRecord;
-
         //processes file data
         for (TradeRecord tradeRecord : tradePackage.getDataList()) {
             dividendRecord = createDividendRecord(tradeRecord);
@@ -303,10 +304,13 @@ public class PackageProcessor implements Runnable {
 
     @Override
     public void run() {
-        if (Props.getProcessingType().equals("byLine"))
+        if (Props.getProcessingType().equals("byLine")) {
             processByLine();
-        else
+        }
+        else {
             processByFile();
+
+        }
         new File(tradeFileName).delete();
         System.out.println(shortTradeFileName + " successfully processed");
     }

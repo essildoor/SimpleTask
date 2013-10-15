@@ -24,7 +24,7 @@ public class CSVTradeFileGenerator {
 
     private static String generateTradeId() {
         char[] c1 = new char[10];
-        tradeIdCounter += r.nextInt(10);
+        tradeIdCounter += 1 + r.nextInt(10);
         String tmp = String.valueOf(tradeIdCounter);
         for (int i = 0; i < 10 - tmp.length(); i++) {
             c1[i] = '0';
@@ -108,7 +108,7 @@ public class CSVTradeFileGenerator {
         int lineNumber;
         File f;
         BufferedWriter writer;
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 30; i++) {
             lineNumber = r.nextInt(1000) + 1;
             f = new File("D:\\!_java_idea_projects\\SimpleTask\\!_work_dir\\stuff\\" + generateFileName());
             try {

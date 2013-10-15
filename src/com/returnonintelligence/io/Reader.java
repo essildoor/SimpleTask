@@ -1,4 +1,4 @@
-package com.returnonintelligence.fileio;
+package com.returnonintelligence.io;
 
 import com.returnonintelligence.datatypes.TradePackage;
 

@@ -17,8 +17,25 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" name="Default" comment="latest ver">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/Writer.java" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\output\CLAIMS_LH718121_18022013_04042013_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\output\DIV_LH718121_18022013_04042013_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\processed\PROCESSED_LH718121_18022013_04042013_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\processed\PROCESSED_LH718121_18022013_04042013_16.csv" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\stuff\LH718121_18022013_04042013_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\stuff\LH718121_18022013_04042013_16.csv" afterPath="" />
+      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\Writer.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleTask.iml" afterPath="$PROJECT_DIR$/SimpleTask.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\CSVTradeFileReader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/CSVTradeFileReader.java" />
+      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\GeneralWriter.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/GeneralWriter.java" />
+      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\Reader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/Reader.java" />
+      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\XMLTradeFileReader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/XMLTradeFileReader.java" />
     </list>
     <ignored path="SimpleTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +69,10 @@
     <file path="/fragment.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380799015595" ignored="false" />
     <file path="/UniqueID.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380836291423" ignored="false" />
     <file path="/dividendPackage.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380117024226" ignored="false" />
-    <file path="/PackageProcessor.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381178532697" ignored="false" />
+    <file path="/PackageProcessor.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381874135724" ignored="false" />
     <file path="/Package.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380798703030" ignored="false" />
     <file path="/CSVReader.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380103639330" ignored="false" />
-    <file path="/Main.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380838231749" ignored="false" />
+    <file path="/Main.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381871128477" ignored="false" />
     <file path="/config.properties" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380835507052" ignored="false" />
     <file path="/ProcessingStub.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380834098847" ignored="false" />
     <file path="/StopperOld.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1380835959655" ignored="false" />
@@ -66,8 +83,10 @@
     <file path="/trade.xml" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381094194948" ignored="false" />
     <file path="$PROJECT_DIR$/com/returnonintelligence/fileio/CSVWriter.html" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381146419989" ignored="false" />
     <file path="/GeneralWriter.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381159328431" ignored="false" />
-    <file path="/config.xml" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381177370163" ignored="false" />
-    <file path="/Dummy.txt" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381779801761" ignored="false" />
+    <file path="/config.xml" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381874259160" ignored="false" />
+    <file path="/Dummy.txt" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381875939322" ignored="false" />
+    <file path="D:/java_edu/MySQL testing/src/Main.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381871521831" ignored="false" />
+    <file path="/DBTradeDataWriter.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381874231793" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +106,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -124,6 +142,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -132,7 +151,35 @@
     <favorites_list name="SimpleTask" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DBTradeDataWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="63" selection-start="3731" selection-end="3731" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="3" selection-start="938" selection-end="938" vertical-scroll-proportion="0.36998853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSVTradeFileGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="69" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -145,6 +192,7 @@
         <option value="Kapitonov Andrei" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -161,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/returnonintelligence/trade.xml" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/InputGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/fileio/XMLTradeFileReader.java" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/datatypes/DividendPackage.java" />
@@ -173,10 +220,11 @@
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/fileio/GeneralWriter.java" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/IncomingFileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/CodeLinesCounter.java" />
+        <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/FolderScanner.java" />
+        <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" />
-        <option value="$PROJECT_DIR$/src/com/returnonintelligence/util/FolderScanner.java" />
       </list>
     </option>
   </component>
@@ -295,7 +343,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -306,6 +354,7 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -314,15 +363,9 @@
               <option name="myItemId" value="SimpleTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -332,50 +375,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fileio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatypes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,9 +396,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="returnonintelligence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="returnonintelligence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="returnonintelligence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatypes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -412,17 +476,17 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="D:/java_edu/SimpleTask" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -507,7 +571,7 @@
     </configuration>
     <configuration default="false" name="XMLTradeFileReader" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.returnonintelligence.fileio.XMLTradeFileReader" />
+      <option name="MAIN_CLASS_NAME" value="com.returnonintelligence.io.XMLTradeFileReader" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -536,6 +600,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="" />
@@ -562,19 +639,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -623,8 +687,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CodeLinesCounter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CSVTradeFileGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CSVTradeFileGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CodeLinesCounter" />
         <item index="3" class="java.lang.String" itemvalue="Application.XMLTradeFileReader" />
       </list>
     </recent_temporary>
@@ -669,14 +733,22 @@
       <created>1381779821137</created>
       <updated>1381779821137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="latest ver">
+      <created>1381780153294</created>
+      <updated>1381780153294</updated>
+    </task>
+    <task id="LOCAL-00004" summary="latest ver">
+      <created>1381780775991</created>
+      <updated>1381780775991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -694,8 +766,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15581644" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -805,6 +877,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="9" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/java/util/Map.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="311" selection-end="311" vertical-scroll-proportion="0.33217993" />
@@ -817,14 +910,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/io/CSVTradeFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="464" selection-end="464" vertical-scroll-proportion="0.077892326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/io/GeneralWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.09736541">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/java/lang/StringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="345" selection-end="345" vertical-scroll-proportion="0.15578465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="9" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="508" selection-end="508" vertical-scroll-proportion="0.17566016">
+        <state line="9" column="20" selection-start="508" selection-end="508" vertical-scroll-proportion="0.17525773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="63" selection-start="3731" selection-end="3731" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/util/FolderScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="69" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/returnonintelligence/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="3" selection-start="938" selection-end="938" vertical-scroll-proportion="0.36998853">
           <folding />
         </state>
       </provider>
@@ -858,6 +1003,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-5.1.26-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
