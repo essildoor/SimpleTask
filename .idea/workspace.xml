@@ -17,25 +17,8 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" name="Default" comment="latest ver">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/DBTradeDataWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/Writer.java" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\output\CLAIMS_LH718121_18022013_04042013_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\output\DIV_LH718121_18022013_04042013_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\processed\PROCESSED_LH718121_18022013_04042013_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\processed\PROCESSED_LH718121_18022013_04042013_16.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\stuff\LH718121_18022013_04042013_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\!_work_dir\stuff\LH718121_18022013_04042013_16.csv" afterPath="" />
-      <change type="DELETED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\Writer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/util/CSVTradeFileGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/util/PackageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleTask.iml" afterPath="$PROJECT_DIR$/SimpleTask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+    <list default="true" id="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\CSVTradeFileReader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/CSVTradeFileReader.java" />
-      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\GeneralWriter.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/GeneralWriter.java" />
-      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\Reader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/Reader.java" />
-      <change type="MOVED" beforePath="D:\!_java_idea_projects\SimpleTask\src\com\returnonintelligence\fileio\XMLTradeFileReader.java" afterPath="$PROJECT_DIR$/src/com/returnonintelligence/io/XMLTradeFileReader.java" />
     </list>
     <ignored path="SimpleTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +67,7 @@
     <file path="$PROJECT_DIR$/com/returnonintelligence/fileio/CSVWriter.html" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381146419989" ignored="false" />
     <file path="/GeneralWriter.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381159328431" ignored="false" />
     <file path="/config.xml" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381874259160" ignored="false" />
-    <file path="/Dummy.txt" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381875939322" ignored="false" />
+    <file path="/Dummy.txt" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381876709726" ignored="false" />
     <file path="D:/java_edu/MySQL testing/src/Main.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381871521831" ignored="false" />
     <file path="/DBTradeDataWriter.java" changelist="6f05ef93-de64-4e0c-b9f4-06aad8aa0a16" time="1381874231793" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -741,7 +724,11 @@
       <created>1381780775991</created>
       <updated>1381780775991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- DB data storage functionality partly added (for input trade data only)&#10;- CSV file generator fixed (unique trade_id bug)">
+      <created>1381876733358</created>
+      <updated>1381876733358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -819,7 +806,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="- DB data storage functionality partly added (for input trade data only)&#10;- CSV file generator fixed (unique trade_id bug)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -834,6 +821,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="latest ver" />
+    <MESSAGE value="- DB data storage functionality partly added (for input trade data only)&#10;- CSV file generator fixed (unique trade_id bug)" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
