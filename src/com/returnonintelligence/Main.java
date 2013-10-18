@@ -8,7 +8,6 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Main {
-
     public static void main(String[] args) {
         BlockingQueue<String> sharedQueue = new LinkedBlockingQueue<String>();
         Props.loadProps();
